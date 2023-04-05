@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rankings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.sportradar.com/sportsapi/mma/v2" generated_at="2019-10-28T15:35:52+00:00" xsi:schemaLocation="http://schemas.sportradar.com/sportsapi/mma/v2 ../schemas/rankings.xsd">
+    <ranking type_id="8" name="pound_for_pound" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:253371" name="Jones, Jon" abbreviation="JON"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:250879" name="Nurmagomedov, Khabib" abbreviation="NUR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:253385" name="Cejudo, Henry" abbreviation="CEJ"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:237684" name="Miocic, Stipe" abbreviation="MIO"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:246051" name="Nunes, Amanda" abbreviation="NUN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="-1">
+                <competitor id="sr:competitor:253373" name="Cormier, Daniel" abbreviation="COR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:237652" name="Holloway, Max" abbreviation="HOL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="0">
+                <competitor id="sr:competitor:410485" name="Adesanya, Israel" abbreviation="ADE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="0">
+                <competitor id="sr:competitor:237646" name="Ferguson, Tony" abbreviation="FER"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="0">
+                <competitor id="sr:competitor:273539" name="Usman, Kamaru" abbreviation="USM"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="0">
+                <competitor id="sr:competitor:246053" name="Shevchenko, Valentina" abbreviation="SHE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="0">
+                <competitor id="sr:competitor:237676" name="McGregor, Conor" abbreviation="MCG"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="0">
+                <competitor id="sr:competitor:261799" name="Poirier, Dustin" abbreviation="POI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="0">
+                <competitor id="sr:competitor:253377" name="Whittaker, Robert" abbreviation="WHI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:274653" name="Woodley, Tyron" abbreviation="WOO"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="9" name="flyweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:253385" name="Cejudo, Henry" abbreviation="CEJ"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:303106" name="Benavidez, Joseph" abbreviation="BEN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:287357" name="Formiga, Jussier" abbreviation="FOR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:340506" name="Figueiredo, Deiveson" abbreviation="FIG"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:312032" name="Pantoja, Alexandre" abbreviation="PAN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="1">
+                <competitor id="sr:competitor:288695" name="Moreno, Brandon" abbreviation="MOR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="1">
+                <competitor id="sr:competitor:511412" name="Kara-France, Kai" abbreviation="KAR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:528405" name="Bontorin, Rogerio" abbreviation="BON"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="1">
+                <competitor id="sr:competitor:303538" name="Elliott, Tim" abbreviation="ELL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="1">
+                <competitor id="sr:competitor:303100" name="Schnell, Matt" abbreviation="SCH"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="1">
+                <competitor id="sr:competitor:459439" name="Espinosa, Jordan" abbreviation="ESP"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="1">
+                <competitor id="sr:competitor:399179" name="Perez, Alex" abbreviation="PER"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="1">
+                <competitor id="sr:competitor:275449" name="Benoit, Ryan" abbreviation="BEN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="1">
+                <competitor id="sr:competitor:401833" name="de La Rosa, Mark" abbreviation="DEL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:530039" name="Paiva, Raulian" abbreviation="PAI"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="10" name="bantamweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:253385" name="Cejudo, Henry" abbreviation="CEJ"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:542111" name="Moraes, Marlon" abbreviation="MOR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:260623" name="Sterling, Aljamain" abbreviation="STE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:464141" name="Sandhagen, Cory" abbreviation="SAN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:542169" name="Yan, Petr" abbreviation="YAN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:268057" name="Assuncao, Raphael" abbreviation="ASS"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="0">
+                <competitor id="sr:competitor:542113" name="Munhoz, Pedro" abbreviation="MUN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:242400" name="Rivera, Jimmie" abbreviation="RIV"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="1">
+                <competitor id="sr:competitor:244074" name="Garbrandt, Cody" abbreviation="GAR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="1">
+                <competitor id="sr:competitor:351770" name="Stamann, Cody" abbreviation="STA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="1">
+                <competitor id="sr:competitor:257361" name="Font, Rob" abbreviation="FON"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="1">
+                <competitor id="sr:competitor:542217" name="Dodson, John" abbreviation="DOD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="1">
+                <competitor id="sr:competitor:449143" name="Yadong, Song" abbreviation="YAD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="1">
+                <competitor id="sr:competitor:237644" name="Faber, Urijah" abbreviation="FAB"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="0">
+                <competitor id="sr:competitor:510956" name="Kenney, Casey" abbreviation="KEN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:245495" name="Vera, Marlon" abbreviation="VER"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="11" name="featherweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:237652" name="Holloway, Max" abbreviation="HOL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:290262" name="Volkanovski, Alex" abbreviation="VOL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:237692" name="Ortega, Brian" abbreviation="ORT"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:237616" name="Aldo, Jose" abbreviation="ALD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:237640" name="Edgar, Frankie" abbreviation="EDG"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:372546" name="Magomedsharipov, Zabit" abbreviation="MAG"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="1">
+                <competitor id="sr:competitor:253381" name="Rodriguez, Yair" abbreviation="ROD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="-1">
+                <competitor id="sr:competitor:312937" name="Jung, Chan Sung" abbreviation="JUN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="1">
+                <competitor id="sr:competitor:257367" name="Moicano, Renato" abbreviation="MOI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="-1">
+                <competitor id="sr:competitor:237716" name="Stephens, Jeremy" abbreviation="STE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="0">
+                <competitor id="sr:competitor:256285" name="Emmett, Josh" abbreviation="EMM"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="0">
+                <competitor id="sr:competitor:361988" name="Kattar, Calvin" abbreviation="KAT"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="0">
+                <competitor id="sr:competitor:304992" name="Burgos, Shane" abbreviation="BUR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="0">
+                <competitor id="sr:competitor:290240" name="Bektic, Mirsad" abbreviation="BEK"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="0">
+                <competitor id="sr:competitor:303102" name="Hall, Ryan" abbreviation="HAL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:245447" name="Allen, Arnold" abbreviation="ALL"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="12" name="lightweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:250879" name="Nurmagomedov, Khabib" abbreviation="NUR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:237646" name="Ferguson, Tony" abbreviation="FER"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:261799" name="Poirier, Dustin" abbreviation="POI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:237676" name="McGregor, Conor" abbreviation="MCG"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:351762" name="Gaethje, Justin" abbreviation="GAE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:237626" name="Cerrone, Donald" abbreviation="CER"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="0">
+                <competitor id="sr:competitor:258371" name="Felder, Paul" abbreviation="FEL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:248591" name="Hooker, Daniel" abbreviation="HOO"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="0">
+                <competitor id="sr:competitor:329503" name="Jaquinta, Al" abbreviation="JAQ"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="0">
+                <competitor id="sr:competitor:237622" name="Barboza, Edson" abbreviation="BAR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="0">
+                <competitor id="sr:competitor:237668" name="Lee, Kevin" abbreviation="LEE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="0">
+                <competitor id="sr:competitor:287353" name="Gillespie, Gregor" abbreviation="GIL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="0">
+                <competitor id="sr:competitor:253389" name="Pettis, Anthony" abbreviation="PET"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="0">
+                <competitor id="sr:competitor:542119" name="Oliveira, Charles" abbreviation="OLI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="0">
+                <competitor id="sr:competitor:417175" name="Hernandez, Alexander" abbreviation="HER"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:251835" name="Makhachev, Islam" abbreviation="MAK"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="13" name="welterweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:273539" name="Usman, Kamaru" abbreviation="USM"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:274653" name="Woodley, Tyron" abbreviation="WOO"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:265079" name="Covington, Colby" abbreviation="COV"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:260633" name="Masvidal, Jorge" abbreviation="MAS"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:256121" name="Edwards, Leon" abbreviation="EDW"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:237634" name="Dos Anjos, Rafael" abbreviation="DOS"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="0">
+                <competitor id="sr:competitor:237632" name="Diaz, Nate" abbreviation="DIA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:250869" name="Ponzinibbio, Santiago" abbreviation="PON"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="0">
+                <competitor id="sr:competitor:265063" name="Thompson, Stephen" abbreviation="THO"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="0">
+                <competitor id="sr:competitor:338797" name="Till, Darren" abbreviation="TIL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="0">
+                <competitor id="sr:competitor:237670" name="Maia, Demian" abbreviation="MAI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="0">
+                <competitor id="sr:competitor:542003" name="Askren, Ben" abbreviation="ASK"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="0">
+                <competitor id="sr:competitor:253389" name="Pettis, Anthony" abbreviation="PET"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="0">
+                <competitor id="sr:competitor:237666" name="Lawler, Robbie" abbreviation="LAW"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="0">
+                <competitor id="sr:competitor:267863" name="Luque, Vicente" abbreviation="LUQ"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:267851" name="Burns, Gilbert" abbreviation="BUR"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="14" name="middleweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:410485" name="Adesanya, Israel" abbreviation="ADE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:253377" name="Whittaker, Robert" abbreviation="WHI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:320689" name="Costa, Paulo Henrique" abbreviation="COS"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:237704" name="Romero, Yoel" abbreviation="ROM"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:268061" name="Gastelum, Kelvin" abbreviation="GAS"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:250133" name="Cannonier, Jared" abbreviation="CAN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="0">
+                <competitor id="sr:competitor:278283" name="Hermansson, Jack" abbreviation="HER"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:237714" name="Souza, Ronaldo" abbreviation="SOU"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="1">
+                <competitor id="sr:competitor:244098" name="Brunson, Derek" abbreviation="BRU"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="1">
+                <competitor id="sr:competitor:465483" name="Heinisch, Ian" abbreviation="HEI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="1">
+                <competitor id="sr:competitor:257353" name="Hall, Uriah" abbreviation="HAL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="1">
+                <competitor id="sr:competitor:284469" name="Tavares, Brad" abbreviation="TAV"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="1">
+                <competitor id="sr:competitor:248585" name="Carlos Junior, Antonio" abbreviation="CAJ"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="1">
+                <competitor id="sr:competitor:462119" name="Shahbazyan, Edmen" abbreviation="SHA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="1">
+                <competitor id="sr:competitor:541995" name="Akhmedov, Omari" abbreviation="AKH"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:245465" name="Jotko, Krzysztof" abbreviation="JOT"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="15" name="light_heavyweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:253371" name="Jones, Jon" abbreviation="JON"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:253373" name="Cormier, Daniel" abbreviation="COR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:237712" name="Santos, Thiago" abbreviation="SAN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:244765" name="Smith, Anthony" abbreviation="SMI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:347406" name="Reyes, Dominick" abbreviation="REY"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:250143" name="Blachowicz, Jan" abbreviation="BLA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="0">
+                <competitor id="sr:competitor:278293" name="Gustafsson, Alexander" abbreviation="GUS"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:246017" name="Anderson, Corey" abbreviation="AND"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="0">
+                <competitor id="sr:competitor:542115" name="Oezdemir, Volkan" abbreviation="OEZ"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="0">
+                <competitor id="sr:competitor:250881" name="Teixeira, Glover" abbreviation="TEI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="0">
+                <competitor id="sr:competitor:372544" name="Rakic, Aleksandar" abbreviation="RAK"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="-1">
+                <competitor id="sr:competitor:511852" name="Walker, Johnny" abbreviation="WAL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="0">
+                <competitor id="sr:competitor:246027" name="Latifi, Ilir" abbreviation="LAT"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="1">
+                <competitor id="sr:competitor:257355" name="Rua, Mauricio" abbreviation="RUA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="-1">
+                <competitor id="sr:competitor:265089" name="Cirkunov, Misha" abbreviation="CIR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:256105" name="Krylov, Nikita" abbreviation="KRY"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="16" name="heavyweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:237684" name="Miocic, Stipe" abbreviation="MIO"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:253373" name="Cormier, Daniel" abbreviation="COR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:250145" name="Ngannou, Francis" abbreviation="NGA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:542009" name="Blaydes, Curtis" abbreviation="BLA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:237636" name="Dos Santos, Junior" abbreviation="DOS"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:542099" name="Lewis, Derrick" abbreviation="LEW"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="0">
+                <competitor id="sr:competitor:237694" name="Overeem, Alistair" abbreviation="OVE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:542161" name="Volkov, Alexander" abbreviation="VOL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="0">
+                <competitor id="sr:competitor:542079" name="Ivanov, Blagoy" abbreviation="IVA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="0">
+                <competitor id="sr:competitor:244080" name="Abdurakhimov, Shamil" abbreviation="ABD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="0">
+                <competitor id="sr:competitor:254231" name="Harris, Walt" abbreviation="HAR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="0">
+                <competitor id="sr:competitor:542145" name="Sakai, Augusto" abbreviation="SAK"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="0">
+                <competitor id="sr:competitor:542117" name="Oleinik, Aleksei" abbreviation="OLE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="0">
+                <competitor id="sr:competitor:524276" name="Greene, Maurice" abbreviation="GRE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="0">
+                <competitor id="sr:competitor:515358" name="Pavlovich, Sergey" abbreviation="PAV"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:567207" name="Spivak, Sergey" abbreviation="SPI"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="17" name="womens_strawweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:542175" name="Zhang, Weili" abbreviation="ZHA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:261805" name="Andrade, Jessica" abbreviation="AND"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:237730" name="Namajunas, Rose" abbreviation="NAM"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:542155" name="Suarez, Tatiana" abbreviation="SUA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:269237" name="Jedrzejczyk, Joanna" abbreviation="JED"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:308170" name="Ansaroff, Nina" abbreviation="ANS"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="0">
+                <competitor id="sr:competitor:269239" name="Gadelha, Claudia" abbreviation="GAD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:253353" name="Esparza, Carla" abbreviation="ESP"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="-1">
+                <competitor id="sr:competitor:278301" name="Waterson, Michelle" abbreviation="WAT"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="0">
+                <competitor id="sr:competitor:501750" name="Rodriguez, Marina" abbreviation="ROD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="0">
+                <competitor id="sr:competitor:319215" name="Calvillo, Cynthia" abbreviation="CAL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="0">
+                <competitor id="sr:competitor:542061" name="Grasso, Alexa" abbreviation="GRA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="0">
+                <competitor id="sr:competitor:273545" name="Herrig, Felice" abbreviation="HER"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="0">
+                <competitor id="sr:competitor:237732" name="Torres, Tecia" abbreviation="TOR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="0">
+                <competitor id="sr:competitor:237726" name="Kowalkiewicz, Karolina" abbreviation="KOW"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:510950" name="Ribas, Amanda" abbreviation="RIB"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="18" name="womens_flyweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:246053" name="Shevchenko, Valentina" abbreviation="SHE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:269763" name="Chookagian, Katlyn" abbreviation="CHO"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:258363" name="Eye, Jessica" abbreviation="EYE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:265071" name="Calderwood, Joanne" abbreviation="CAL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:399181" name="Carmouche, Liz" abbreviation="CAR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:542105" name="Maia, Jennifer" abbreviation="MAI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="0">
+                <competitor id="sr:competitor:579365" name="Araujo, Viviane" abbreviation="ARA"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:542087" name="Lee, Andrea" abbreviation="LEE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="0">
+                <competitor id="sr:competitor:542109" name="Modafferi, Roxanne" abbreviation="MOD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="0">
+                <competitor id="sr:competitor:244066" name="Murphy, Lauren" abbreviation="MUR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="2">
+                <competitor id="sr:competitor:462103" name="Barber, Maycee" abbreviation="BAR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="-1">
+                <competitor id="sr:competitor:303104" name="Davis, Alexis" abbreviation="DAV"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="-1">
+                <competitor id="sr:competitor:457887" name="de La Rosa, Montana" abbreviation="DEL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="1">
+                <competitor id="sr:competitor:453243" name="Shevchenko, Antonina" abbreviation="SHE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="-1">
+                <competitor id="sr:competitor:542011" name="Borella, Mara Romero" abbreviation="BOR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:542159" name="Vanzant, Paige" abbreviation="VAN"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="19" name="womens_bantamweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:246051" name="Nunes, Amanda" abbreviation="NUN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="1" movement="0">
+                <competitor id="sr:competitor:256101" name="de Randamie, Germaine" abbreviation="DER"/>
+            </competitor_ranking>
+            <competitor_ranking rank="2" movement="0">
+                <competitor id="sr:competitor:288703" name="Vieira, Ketlen" abbreviation="VIE"/>
+            </competitor_ranking>
+            <competitor_ranking rank="3" movement="0">
+                <competitor id="sr:competitor:246047" name="Holm, Holly" abbreviation="HOL"/>
+            </competitor_ranking>
+            <competitor_ranking rank="4" movement="0">
+                <competitor id="sr:competitor:268067" name="Pena, Julianna" abbreviation="PEN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="5" movement="0">
+                <competitor id="sr:competitor:542085" name="Ladd, Aspen" abbreviation="LAD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="6" movement="0">
+                <competitor id="sr:competitor:542125" name="Pennington, Raquel" abbreviation="PEN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="7" movement="0">
+                <competitor id="sr:competitor:542083" name="Kunitskaya, Yana" abbreviation="KUN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="8" movement="0">
+                <competitor id="sr:competitor:541997" name="Aldana, Irene" abbreviation="ALD"/>
+            </competitor_ranking>
+            <competitor_ranking rank="9" movement="0">
+                <competitor id="sr:competitor:244068" name="Reneau, Marion" abbreviation="REN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="10" movement="0">
+                <competitor id="sr:competitor:258361" name="Mcmann, Sara" abbreviation="MCM"/>
+            </competitor_ranking>
+            <competitor_ranking rank="11" movement="0">
+                <competitor id="sr:competitor:287367" name="Lansberg, Lina" abbreviation="LAN"/>
+            </competitor_ranking>
+            <competitor_ranking rank="12" movement="0">
+                <competitor id="sr:competitor:542017" name="Chiasson, Macy" abbreviation="CHI"/>
+            </competitor_ranking>
+            <competitor_ranking rank="13" movement="0">
+                <competitor id="sr:competitor:251843" name="Correia, Bethe" abbreviation="COR"/>
+            </competitor_ranking>
+            <competitor_ranking rank="14" movement="0">
+                <competitor id="sr:competitor:466523" name="Montano, Nicco" abbreviation="MON"/>
+            </competitor_ranking>
+            <competitor_ranking rank="15" movement="0">
+                <competitor id="sr:competitor:542047" name="Eubanks, Sijara" abbreviation="EUB"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+    <ranking type_id="20" name="womens_featherweight" year="2019" week="43">
+        <competitor_rankings>
+            <competitor_ranking rank="0" movement="0">
+                <competitor id="sr:competitor:246051" name="Nunes, Amanda" abbreviation="NUN"/>
+            </competitor_ranking>
+        </competitor_rankings>
+    </ranking>
+</rankings>

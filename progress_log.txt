@@ -1,0 +1,24 @@
+1st report
+I created the FileHandler class and the DataParser class.
+Unfortunately the API does not provide a way to search for any individual competitor
+without first finding their ID, which can't be done for any competitor.
+As a result, the application only works with ranked fighters.
+I tested the functionality of the methods primarily with example XML-files
+provided in the API documentation, using REPL to test the API-calls.
+This took ~5 hours.
+
+2nd report - First larger whole
+I have now fully fleshed out the functionality of the DataParser class and
+the FileHandler class, with the exception of saving and loading dashboards.
+I also created the FighterData class, along with a FightData class that contains
+the information about an individual fight.
+REPL as well as test classes have been indispensible in the testing process.
+This took about 10 hours.
+
+3rd report - halfway through
+I have begun the process of making the UI, with the DashboardGUI class,
+so I have now been able to use that class for testing.
+Unfortunately, I am not very proficient in creating UI, especially with Swing,
+so there has been a lot of trial and error, and I am somewhat behind schedule, especially with creating the UI elements.
+I was able to display the fighter data in the UI, though, so now all I have to do is actually finish the UI.
+This took about another 5 hours. Luckily, I should have more time to work on the project in the coming weeks.
