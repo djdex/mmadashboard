@@ -8,8 +8,7 @@ object FileHandler {
 
   var fighterList: Array[(String, String)] = Array()
 
-  //REMOVE THIS
-  var hasUsed = false
+  val fightersListLoc = "rankedfighters.xml"
 
   def APIkey =
     var key = ""
@@ -24,25 +23,31 @@ object FileHandler {
     writer.write(data)
     writer.close()
 
-  def getRankedFighters() =
+  def getFightersAPI() =
     val apiResponse: Response = requests.get("https://api.sportradar.com/mma/trial/v2/en/rankings.xml?api_key=" + APIkey)
-    saveFile("rankedfighters.xml", apiResponse.text())
+    saveFile(fightersListLoc, apiResponse.text())
+
+  def getRankedFighters =
+    try
+      DataParser.XMLtoFighterList(xml.XML.loadFile(fightersListLoc))
+    catch
+      case _ =>
+        println("Initiating API call")
+        getFightersAPI()
+        DataParser.XMLtoFighterList(xml.XML.loadFile(fightersListLoc))
 
 
   def getFighter(fighterName: String, fighterID: String): FighterData =
-    if !hasUsed then
-      //Get Fighter Profile
-      val profileResponse: Response = requests.get(s"https://api.sportradar.com/mma/trial/v2/en/rankings.xml?api_key=$APIkey")
-      saveFile("FighterData\\Profile-" + fighterName.replace(' ', '-') + ".xml", profileResponse.text())
-      Thread.sleep(1500)
+    //Get Fighter Profile
+    val profileResponse: Response = requests.get(s"https://api.sportradar.com/mma/trial/v2/en/rankings.xml?api_key=$APIkey")
+    saveFile("FighterData\\Profile-" + fighterName.replace(' ', '-') + ".xml", profileResponse.text())
+    Thread.sleep(1500)
 
-      //Get Fighter Summary
-      val summaryResponse: Response = requests.get(s"https://api.sportradar.com/mma/trial/v2/en/competitors/$fighterID/summaries.xml?api_key=$APIkey")
-      saveFile("FighterData\\Summary-" + fighterName.replace(' ', '-') + ".xml", summaryResponse.text())
-      hasUsed = true
-      //Use DataParser to return a FighterData instance
-      DataParser.XMLtoFighterData(xml.XML.loadFile("FighterData\\Profile-" + fighterName.replace(' ', '-') + ".xml"))
+    //Get Fighter Summary
+    val summaryResponse: Response = requests.get(s"https://api.sportradar.com/mma/trial/v2/en/competitors/$fighterID/summaries.xml?api_key=$APIkey")
+    saveFile("FighterData\\Summary-" + fighterName.replace(' ', '-') + ".xml", summaryResponse.text())
 
-    else
-      DataParser.XMLtoFighterData(xml.XML.loadFile("MMA_v2_Competitor_Profile_Example.xml"))
+    //Use DataParser to return a FighterData instance
+    DataParser.XMLtoFighterData(xml.XML.loadFile("FighterData\\Profile-" + fighterName.replace(' ', '-') + ".xml"))
+
 }

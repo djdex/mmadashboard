@@ -3,12 +3,14 @@ import scala.collection.mutable.Buffer
 
 object DataParser {
 
-  def XMLtoFighterList(xmlFile: xml.Node): Array[(String, String)] =
-    val fetchNames = (xmlFile \\ "competitor_ranking" \\ "@name").map(_.text.split(", ").reverse.mkString(" "))
-    val fetchIDs = (xmlFile \\ "competitor_ranking" \\ "@id").map(_.text)
+  def XMLtoFighterList(xmlFile: xml.Node) =
+    val fetchClasses = (xmlFile \ "ranking")
+    val fighters = fetchClasses.map(node => ((node \ "@name").text,
+      ((node \\ "competitor_ranking" \\ "@name").map((n: xml.Node) => (n.text.split(", ").reverse.mkString(" ")))).zip((node \\ "competitor_ranking" \\ "@id").map(_.text))
+    ))
 
-    fetchNames.zip(fetchIDs).toArray
-    
+    fighters
+
   def XMLtoFighterData(xmlFile: xml.Node): FighterData =
     val fighterInfo = new FighterData
 
@@ -36,6 +38,22 @@ object DataParser {
       val thisStats = (node \ "statistics" \\ "totals" \\ "competitor").filter(n => (n \\ "@id").text == fighterID)
       val oppStats = (node \ "statistics" \\ "totals" \\ "competitor").filter(n => (n \\ "@id").text != fighterID)
       val oppName = (oppStats \\ "@name").text
+
+      fight.date =
+        val text = (node \ "sport_event" \ "@start_time").text
+        println(text)
+        text.substring(8, 10) + "." + text.substring(5, 7) + "." + text.take(4)
+
+      fight.dateNum =
+        fight.date.takeRight(4).toDouble + fight.date.substring(3, 5).toDouble / 12 + fight.date.take(2).toDouble / 360
+
+      fight.length =
+        val fullRounds = (node \ "sport_event_status" \\ "@final_round").text.toInt - 1
+        println(fullRounds)
+        val lastRoundText = (node \ "sport_event_status" \\ "@final_round_length").text
+        val lastRoundTime = lastRoundText.take(1).toDouble + (lastRoundText.takeRight(2).toDouble / 60)
+        println(lastRoundText.takeRight(2))
+        5.0 * fullRounds + lastRoundTime
 
       fight.knockdowns = (thisStats \\ "@knockdowns").text.toIntOption.getOrElse(-1)
 
@@ -67,5 +85,8 @@ object DataParser {
     fighterInfo.fights = fights.toArray
 
     fighterInfo
+
+  def elementsToXML(elements: Seq[scalafx.scene.Node], fileName: String) =
+    val uiElements = elements.filter(_.isInstanceOf[UIElement]).map(_.asInstanceOf[UIElement])
 
 }

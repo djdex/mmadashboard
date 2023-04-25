@@ -1,6 +1,12 @@
 class FightData {
 
   var description = ""
+  
+  var date = ""
+  
+  var dateNum = 0.0
+
+  var length = 0.0
 
   //0 win. 1 loss. 2 draw. 3 no contest.
   var result = 0
@@ -29,4 +35,21 @@ class FightData {
 
   override def toString: String =
     description + "\n" + s"$totalStrikes $sigStrikes $takedownAttempts"
+
+  //This method returns a given value from a string.
+  //Called by UIElements to get data corresponding to the user's selection.
+  def getField(field: String, isOpponent: Boolean): Double =
+    field match
+      case "Strikes Attempted" => if isOpponent then oppTotalStrikeAttempts else totalStrikeAttempts
+      case "Strikes Landed" => if isOpponent then oppTotalStrikes else totalStrikes
+      case "Strike Percentage" => if isOpponent && oppTotalStrikeAttempts != 0 then oppTotalStrikes.toDouble / oppTotalStrikeAttempts
+        else if totalStrikeAttempts != 0 then totalStrikes.toDouble / totalStrikeAttempts else 0
+      case "Significant Strikes Attempted" => if isOpponent then oppSigStrikeAttempts else sigStrikeAttempts
+      case "Significant Strikes Landed" => if isOpponent then oppSigStrikes else sigStrikes
+      case "Significant Strike Percentage" => if isOpponent && oppSigStrikeAttempts != 0 then oppSigStrikes.toDouble / oppSigStrikeAttempts
+        else if sigStrikeAttempts != 0 then sigStrikes.toDouble / sigStrikeAttempts else 0
+      case "Takedowns Attempted" => if isOpponent then oppTakedownAttempts else takedownAttempts
+      case "Takedown Percentage" => if isOpponent && oppTakedownAttempts != 0 then oppTakedowns.toDouble / oppTakedownAttempts
+        else if sigStrikeAttempts != 0 then sigStrikes.toDouble / sigStrikeAttempts else 0
+      case _ => 0
 }

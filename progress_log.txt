@@ -22,3 +22,13 @@ Unfortunately, I am not very proficient in creating UI, especially with Swing,
 so there has been a lot of trial and error, and I am somewhat behind schedule, especially with creating the UI elements.
 I was able to display the fighter data in the UI, though, so now all I have to do is actually finish the UI.
 This took about another 5 hours. Luckily, I should have more time to work on the project in the coming weeks.
+
+4th report - almost there
+I have now implemented the basic systems for adding different kinds of elements. I have also mostly implemented the scater chart.
+Unfortunately, I experienced a massive setback in having to switch from Scala Swing to ScalaFX.
+This is because swing contains no tools for making charts. This would be fine if the charts only had to be simple
+and purely graphical, but the level of interactivity required means that switching to ScalaFX was my only option.
+At this point, I have been able to test everything in the actual UI, which has been very useful.
+Getting back to this point took about 15 hours, including the time I had to spend learning the new library.
+I am still behind schedule, but I am now in a good place to grind through to the end.
+
