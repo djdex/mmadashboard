@@ -181,6 +181,8 @@ object Dashboard extends JFXApp3 {
                 invalidNameAlert.showAndWait()
               case _ =>
                 xmlReadFail.showAndWait()
+            finally
+              fighterXMLSelectDialog.editor.text = ""
       }
       val fighterListItem = new MenuItem("Regenerate Fighter List")
       fighters.items = List(fighterSelectItem, fromFileSelectItem, fighterListItem)

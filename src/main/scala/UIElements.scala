@@ -194,12 +194,9 @@ class StatCard (parent: UIElementParent) extends UIElement (parent) {
         case "Minimum" => value = fighterInfo.fights.map(_.getField(fieldSelect.value.value, false)).min
         case "Average Per Min" => value = if fighterInfo.fights.map(_.length).sum != 0 then fighterInfo.fights.map(_.getField(fieldSelect.value.value, false)).sum / fighterInfo.fights.map(_.length).sum else 0
         case "Standard Deviation" =>
-          if fighterInfo.fights.nonEmpty then
-            val n = fighterInfo.fights.length
-            val avg = fighterInfo.fights.map(_.getField(fieldSelect.value.value, false)).sum / n
-            value = math.sqrt(fighterInfo.fights.map(_.getField(fieldSelect.value.value, false)).map(num => (num - avg) * (num - avg)).sum / n)
-          else
-            value = 0
+          val n = fighterInfo.fights.length
+          val avg = fighterInfo.fights.map(_.getField(fieldSelect.value.value, false)).sum / n
+          value = math.sqrt(fighterInfo.fights.map(_.getField(fieldSelect.value.value, false)).map(num => (num - avg) * (num - avg)).sum / n)
         case _ => value = fighterInfo.fights.map(_.getField(fieldSelect.value.value, false)).sum
 
     valueText.text = "  " + ((value * 10000).round.toDouble / 10000).toString
