@@ -3,7 +3,7 @@ class FightData {
   var description = ""
   
   var date = ""
-  
+
   var dateNum = 0.0
 
   var length = 0.0
@@ -49,7 +49,8 @@ class FightData {
       case "Significant Strike Percentage" => if isOpponent && oppSigStrikeAttempts != 0 then oppSigStrikes.toDouble / oppSigStrikeAttempts
         else if sigStrikeAttempts != 0 then sigStrikes.toDouble / sigStrikeAttempts else 0
       case "Takedowns Attempted" => if isOpponent then oppTakedownAttempts else takedownAttempts
+      case "Takedowns" => if isOpponent then oppTakedowns else takedowns
       case "Takedown Percentage" => if isOpponent && oppTakedownAttempts != 0 then oppTakedowns.toDouble / oppTakedownAttempts
-        else if sigStrikeAttempts != 0 then sigStrikes.toDouble / sigStrikeAttempts else 0
+        else if takedownAttempts != 0 then takedowns.toDouble / takedownAttempts else 0
       case _ => 0
 }

@@ -38,16 +38,25 @@ object FileHandler {
 
 
   def getFighter(fighterName: String, fighterID: String): FighterData =
-    //Get Fighter Profile
-    val profileResponse: Response = requests.get(s"https://api.sportradar.com/mma/trial/v2/en/rankings.xml?api_key=$APIkey")
-    saveFile("FighterData\\Profile-" + fighterName.replace(' ', '-') + ".xml", profileResponse.text())
-    Thread.sleep(1500)
+    try
+      DataParser.XMLtoFighterData(xml.XML.loadFile("FighterData\\Profile-" + fighterName.replace(' ', '-') + ".xml"))
+    catch
+      case _ =>
+        println("Initiating API call.")
 
-    //Get Fighter Summary
-    val summaryResponse: Response = requests.get(s"https://api.sportradar.com/mma/trial/v2/en/competitors/$fighterID/summaries.xml?api_key=$APIkey")
-    saveFile("FighterData\\Summary-" + fighterName.replace(' ', '-') + ".xml", summaryResponse.text())
+        //Get Fighter Profile
+        val profileResponse: Response = requests.get(s"https://api.sportradar.com/mma/trial/v2/en/competitors/$fighterID/profile.xml?api_key=$APIkey")
+        saveFile("FighterData\\Profile-" + fighterName.replace(' ', '-') + ".xml", profileResponse.text())
+        Thread.sleep(1500)
 
-    //Use DataParser to return a FighterData instance
-    DataParser.XMLtoFighterData(xml.XML.loadFile("FighterData\\Profile-" + fighterName.replace(' ', '-') + ".xml"))
+        //Get Fighter Summary
+        val summaryResponse: Response = requests.get(s"https://api.sportradar.com/mma/trial/v2/en/competitors/$fighterID/summaries.xml?api_key=$APIkey")
+        saveFile("FighterData\\Summary-" + fighterName.replace(' ', '-') + ".xml", summaryResponse.text())
+
+        //Use DataParser to return a FighterData instance
+        DataParser.XMLtoFighterData(xml.XML.loadFile("FighterData\\Profile-" + fighterName.replace(' ', '-') + ".xml"))
+
+  def getFighterFromFile(fileName: String) =
+    DataParser.XMLtoFighterData(xml.XML.loadFile(fileName))
 
 }

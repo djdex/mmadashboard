@@ -1,0 +1,19 @@
+<dashboard_save>
+<element type="statcard" size="350" selected_operation="Average Per Min" selected_field="Takedowns Attempted" colour="Purple" />
+<element type="barchart" size="250" is_per_min="true">
+<field name="Strikes Attempted"/><field name="Strikes Landed"/><field name="Significant Strikes Landed"/><field name="Takedowns Attempted"/><year name="1990" colour="Red"/><year name="1991" colour="Red"/><year name="1992" colour="Red"/><year name="1993" colour="Red"/><year name="1994" colour="Red"/><year name="1995" colour="Red"/><year name="1996" colour="Red"/><year name="1997" colour="Red"/><year name="1998" colour="Red"/><year name="1999" colour="Red"/><year name="2000" colour="Red"/><year name="2001" colour="Red"/><year name="2002" colour="Red"/><year name="2003" colour="Red"/><year name="2004" colour="Red"/><year name="2005" colour="Red"/><year name="2006" colour="Red"/><year name="2007" colour="Red"/><year name="2008" colour="Red"/><year name="2009" colour="Red"/><year name="2010" colour="Red"/><year name="2011" colour="Red"/><year name="2012" colour="Red"/><year name="2013" colour="Red"/><year name="2014" colour="Red"/><year name="2015" colour="Red"/><year name="2016" colour="Red"/><year name="2017" colour="Red"/><year name="2018" colour="Red"/><year name="2019" colour="Blue"/><year name="2020" colour="Yellow"/><year name="2021" colour="Red"/><year name="2022" colour="Red"/><year name="2023" colour="Gray"/><year name="2024" colour="Red"/><year name="2025" colour="Red"/><year name="2026" colour="Red"/></element>
+<element type="piechart" size="650" is_per_min="false">
+<field name="Strikes Attempted" colour="Gray" is_selected="true"/>
+<field name="Strikes Landed" colour="Green" is_selected="true"/>
+<field name="Significant Strikes Attempted" colour="Gray" is_selected="false"/>
+<field name="Significant Strikes Landed" colour="Black" is_selected="false"/>
+<field name="Takedowns Attempted" colour="Green" is_selected="true"/>
+</element>
+<element type="multiscatterplot" size="250" is_per_min="true">
+<field name="Strikes Attempted" colour="Blue"/>
+<field name="Significant Strikes Attempted" colour="Red"/>
+<field name="Significant Strikes Landed" colour="Purple"/>
+<field name="Takedowns Attempted" colour="Red"/>
+</element>
+<element type="scatterplot" size="550" selected_field="Takedowns" colour="Green" is_per_min="true"/>
+</dashboard_save>
