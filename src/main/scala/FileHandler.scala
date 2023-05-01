@@ -4,6 +4,7 @@ import java.io.*
 import scala.io.Source
 import requests.*
 
+
 object FileHandler {
 
   var fighterList: Array[(String, String)] = Array()
@@ -23,6 +24,14 @@ object FileHandler {
     writer.write(data)
     writer.close()
 
+  def deleteInDirectory(filePath: String) =
+    val file = new File(filePath)
+
+    file.listFiles.foreach(f =>
+      if !f.isDirectory then
+        f.delete()
+    )
+
   def getFightersAPI() =
     val apiResponse: Response = requests.get("https://api.sportradar.com/mma/trial/v2/en/rankings.xml?api_key=" + APIkey)
     saveFile(fightersListLoc, apiResponse.text())
@@ -35,7 +44,6 @@ object FileHandler {
         println("Initiating API call")
         getFightersAPI()
         DataParser.XMLtoFighterList(xml.XML.loadFile(fightersListLoc))
-
 
   def getFighter(fighterName: String, fighterID: String): FighterData =
     try

@@ -185,7 +185,6 @@ object Dashboard extends JFXApp3 {
               fighterXMLSelectDialog.editor.text = ""
       }
       val fighterListItem = new MenuItem("Regenerate Fighter List")
-      fighters.items = List(fighterSelectItem, fromFileSelectItem, fighterListItem)
 
       //Handles alert for regenerating fighter list
       val listRegenAlert = new Alert(Alert.AlertType.Confirmation) {
@@ -206,6 +205,29 @@ object Dashboard extends JFXApp3 {
             catch
               case _ => APIfailAlert.showAndWait()
           case _ =>
+
+      //Same as above, but for deleting the fighter xml cache
+      val cacheDeleteAlert = new Alert(Alert.AlertType.Confirmation) {
+        initOwner(stage)
+        title = "Warning"
+        headerText = "Are you sure you want to proceed?"
+        contentText = "Deleting the cache will remove all fighter data XML files."
+      }
+
+      val fighterCacheDeleteItem = new MenuItem("Delete fighter cache") {
+        this.onAction = (e: javafx.event.ActionEvent) =>
+          val result = cacheDeleteAlert.showAndWait()
+
+          result match
+            case Some(ButtonType.OK) =>
+              try
+                FileHandler.deleteInDirectory("FighterData")
+              catch
+                case _ =>
+            case _ =>
+      }
+
+      fighters.items = List(fighterSelectItem, fromFileSelectItem, fighterListItem, fighterCacheDeleteItem)
 
       menuBar.menus = List(file, fighters)
 
