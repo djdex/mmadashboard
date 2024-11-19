@@ -8,9 +8,6 @@ class FightData {
 
   var length = 0.0
 
-  //0 win. 1 loss. 2 draw. 3 no contest.
-  var result = 0
-
   var knockdowns = 0
 
   var totalStrikes = 0

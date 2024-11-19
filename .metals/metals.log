@@ -20,3 +20,19 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 2023.03.26 22:41:09 INFO  Shutting down server
 2023.03.26 22:41:09 INFO  shutting down Metals
 2023.03.26 22:41:09 INFO  Exiting server
+2023.05.05 17:36:34 INFO  Started: Metals version 0.11.11 in workspace 'C:\University\OS2\ufcdash' for client Visual Studio Code 1.76.2.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/C:/Users/dex/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.05.05 17:36:35 INFO  time: initialize in 0.76s
+2023.05.05 17:36:36 WARN  Build server is not auto-connectable.
+2023.05.05 17:36:36 WARN  no build target for: C:\University\OS2\ufcdash\src\main\scala\FileHandler.scala
+2023.05.05 17:36:42 INFO  no build target found for C:\University\OS2\ufcdash\src\main\scala\FileHandler.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.05 17:36:46 INFO  time: code lens generation in 9.32s
+2023.05.05 17:36:46 INFO  time: code lens generation in 1.95s
+2023.05.05 17:36:51 INFO  Shutting down server
+2023.05.05 17:36:51 INFO  shutting down Metals
+2023.05.05 17:36:51 INFO  Exiting server

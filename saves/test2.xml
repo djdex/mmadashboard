@@ -1,0 +1,13 @@
+<dashboard_save>
+<element type="multiscatterplot" size="350" is_per_min="false">
+<field name="Significant Strikes Attempted" colour="Gray"/>
+<field name="Significant Strikes Landed" colour="Blue"/>
+</element>
+<element type="piechart" size="350" is_per_min="false">
+<field name="Strikes Attempted" colour="Purple" is_selected="true"/>
+<field name="Strikes Landed" colour="Red" is_selected="false"/>
+<field name="Significant Strikes Attempted" colour="Green" is_selected="true"/>
+<field name="Significant Strikes Landed" colour="Red" is_selected="false"/>
+<field name="Takedowns Attempted" colour="Red" is_selected="false"/>
+</element>
+</dashboard_save>

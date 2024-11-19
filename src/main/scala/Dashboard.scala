@@ -237,7 +237,6 @@ object Dashboard extends JFXApp3 {
       val uiPane = new ScrollPane {
         this.fitToHeight = true
         this.pannable = true
-        //this.vbarPolicy = ScrollPane.ScrollBarPolicy.Never
         this.hbarPolicy = ScrollPane.ScrollBarPolicy.Always
       }
 

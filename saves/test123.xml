@@ -1,0 +1,8 @@
+<dashboard_save>
+<element type="multiscatterplot" size="400" is_per_min="true">
+<field name="Strikes Attempted" colour="Red"/>
+<field name="Significant Strikes Attempted" colour="Green"/>
+<field name="Takedowns Attempted" colour="Black"/>
+</element>
+<element type="scatterplot" size="400" selected_field="Strikes Landed" colour="Red" is_per_min="false"/>
+</dashboard_save>
