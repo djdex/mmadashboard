@@ -1,4 +1,4 @@
-This is a sports statistics dashboard project for the UFC. Made in Scala.
+This is a sports statistics dashboard project for the UFC, made for University. Made in Scala.
 
 The API calls will not work, unless a valid API key is provided in apikey.txt
 The dashboard will thus only work for fighters whose data is in the FighterData file, unless you provide an API key
